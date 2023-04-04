@@ -43,7 +43,7 @@ public class Controller
     public String fileNameConnector = "_circ_stats_";
     public ArrayList<String> semesters = new ArrayList<>(Arrays.asList("fall", "spring" , "summer"));
     public ArrayList<String> subParts = new ArrayList<>(Arrays.asList("microfilm", "miscellaneous" , "traditional","nocall","micro"));
-    public ArrayList<Integer> years = new ArrayList<>(Arrays.asList(2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021));
+    public ArrayList<Integer> years = new ArrayList<>(Arrays.asList(2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021,2022));
     //This is data retrival it is a get request only but given postmapping in order to accomidate request body from Front End
     @PostMapping(path="/getData")
     @SuppressWarnings("unchecked")

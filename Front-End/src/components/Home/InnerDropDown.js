@@ -19,6 +19,7 @@ function InnerDropDown(props) {
     "2019",
     "2020",
     "2021",
+    "2022"
   ];
   const addCategory = () => {
     props.setCategory(props.subName);
